@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mi Programa</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+    <link rel="stylesheet" href="css/estilos.css"><!--Vinculacion css-->
+    <link rel="stylesheet" href="css/fontello.css">
+    <!-- Remember to include jQuery :) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+</head>
+<body>
+  <!-- jQuery Modal -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+   <header>
+       <div class="contenedor">
+           <h1 class="icon-emo-beer">  Los mejores Vinos</h1>
+           <input type="checkbox" id="menu-bar">
+           <label class="icon-menu" for="menu-bar"></label>
+           
+           <nav class="menu">
+               <a href="Principal.html">Inicio</a>
+               <a href="#Hacerca-de">Hacerca de </a>
+                <a href="#blog">Catalogo de Vinos</a>
+                   <a href="">MI Primer Examen Web</a>           
+    </nav>
+       </div>
+   </header>
+   <main>
+       <section id="banner">
+          <img src="img/fondo.jpg">
+          <div class="contenedor">
+          <h2>Consulte Nuestra Mejor Seleccion de vinos</h2>
+          <p>Y eliga el que mas le agrade a su paldar</p>
+          <a href="#pagina1">Leer mas</a>
+           </div>
+       </section>
+       <a name="pagina1"></a>
+       <section id="Hacerca-de">
+           <h2>Hacerca de Nosotros</h2>
+           <p>Somos Una empresa Mundialmente reconocida dedicada a la venta de vinos,
+           contamos con todo tipo de vinos de diferentes paises y de diferentes epocas.
+           Hcemos llegar nuestros productos hasta la puerta de su casa gracias a la alluda
+           de nuestros repartidores que so 100% confiables.</p>
+           <section id="banner">
+           <img src="img/empresa.jpg">
+       </section>
+       </section>
+       
+       <section id="blog">
+           <h3 id="pagina2">Catalago de Productos</h3>
+           <div class="contenedor">
+               <article>
+                   <img src="naranja.png" height="300px">
+                   <!-- Link to open the modal -->
+<p><a href="#ex1" rel="modal:open"><h4>Vino Naranja</h4></a></p>
+                   <!-- Modal HTML embedded directly into document -->
+<div id="ex1" class="modal">
+ <div>
+     <img src="naranja.png" heigth="318" width="434" alt="">
+ </div>
+  <p>MARCA:BODEGAS HENRI LURTON
+Vino Naranja elaborado con uva Chardonnay en el Valle de Guadalupe. Henri Lurton, propietario del Grand Cru Classé, Château Margaux en Brane- Catenac, con el apoyo de sus hijos, Vicente y Nicolas, apuestan en Baja California. El vino naranja es un vino blanco que tiene contacto con la cáscara de la uva y por ello adquiere el color por el que se le denomina, además de una estructura tánica muy interesante. En el estilo más tradicional del norte de Italia, pero con un toque muy mexicano.</p>
+  <a href="#" rel="modal:close">Close</a>
+</div>
+               </article>
+               <article>
+                   <img src="img/tinto.jpg" width="100" height="300px" >
+                   <!-- Link to open the modal -->
+<p><a href="#ex1" rel="modal:open"><h4>Vino Riunite</h4></a></p>
+                   <!-- Modal HTML embedded directly into document -->
+<div id="ex1" class="modal">
+ <div>
+     <img src="img/tinto.jpg" heigth="318" width="434" alt="">
+ </div>
+  <p>Son vinos jóvenes , frutosos y fáciles de disfrutar. Desde el mismo momento de su lanzamiento están listos para consumir. Cada uno de los vinos está claramente identificado con la cepa que le da origen, y son fieles a los sabores y aromas de la uva.
+
+Notas de Cata
+
+Posee un interesante color rojo rubí joven y brillante. Aromáticamente, se destaca la fruta mostrando cherry y frutillas, a la vez que se acompleja con notas de vainilla y tostado. En boca la entrada es suave, con buen volumen, muy buen equilibrio y larga persistencia.</p>
+  <a href="#" rel="modal:close">Close</a>
+</div>
+                       </article>
+               <article>
+                   <img src="img/vino2.jpg">
+                              <!-- Link to open the modal -->
+<p><a href="#ex1" rel="modal:open"><h4>Vino Rosado</h4></a></p>
+                   <!-- Modal HTML embedded directly into document -->
+<div id="ex1" class="modal">
+ <div>
+     <img src="img/vino2.jpg" heigth="318" width="434" alt="">
+ </div>
+  <p>Son vinos jóvenes , frutosos y fáciles de disfrutar. Desde el mismo momento de su lanzamiento están listos para consumir. Cada uno de los vinos está claramente identificado con la cepa que le da origen, y son fieles a los sabores y aromas de la uva.
+
+Notas de Cata
+
+Posee un interesante color rojo rubí joven y brillante. Aromáticamente, se destaca la fruta mostrando cherry y frutillas, a la vez que se acompleja con notas de vainilla y tostado. En boca la entrada es suave, con buen volumen, muy buen equilibrio y larga persistencia.</p>
+  <a href="#" rel="modal:close">Close</a>
+</div>
+               </article>
+                     <article>
+                   <img src="img/tintojoven.jpg">
+                              <!-- Link to open the modal -->
+<p><a href="#ex1" rel="modal:open"><h4>Vino Joven</h4></a></p>
+                   <!-- Modal HTML embedded directly into document -->
+<div id="ex1" class="modal">
+ <div>
+     <img src="img/tintojoven.jpg" heigth="318" width="434" alt="">
+ </div>
+  <p>Vino Tinto, complejo y expresivo, elaborado con una selección de diferentes uvas tintas.   Color rojo intenso y violáceo.
+
+Aroma a frutos rojos como frambuesa y cereza, fresco, intenso.
+
+En boca, cuerpo medio y persistente con buena acidez, y un final elegante.
+
+Combínalo con la comida que te guste. 
+
+Temperatura de servicio 15º a 17º C
+
+12.5% Alc. Vol.</p>
+  <a href="#" rel="modal:close">Close</a>
+</div>
+               </article>
+                     <article>
+                   <img src="img/zeus.jpg">
+                              <!-- Link to open the modal -->
+<p><a href="#ex1" rel="modal:open"><h4>Vino zeus</h4></a></p>
+                   <!-- Modal HTML embedded directly into document -->
+<div id="ex1" class="modal">
+ <div>
+     <img src="img/zeus.jpg" heigth="318" width="434" alt="">
+ </div>
+  <p>Vino Tinto, complejo y expresivo, elaborado con una selección de diferentes uvas tintas.   Color rojo intenso y violáceo.
+
+Aroma a frutos rojos como frambuesa y cereza, fresco, intenso.
+
+En boca, cuerpo medio y persistente con buena acidez, y un final elegante.
+
+Combínalo con la comida que te guste. 
+
+Temperatura de servicio 15º a 17º C
+
+12.5% Alc. Vol.</p>
+  <a href="#" rel="modal:close">Close</a>
+</div>
+</article>        
+           </div>
+       </section>
+   </main>
+   
+   <div class="clarfix">
+       <footer>&copy; Vinos y0nathan 2020</footer>
+   </div>
+    </body>
+</html>
